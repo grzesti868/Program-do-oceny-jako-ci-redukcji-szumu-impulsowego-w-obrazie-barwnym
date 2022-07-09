@@ -28,4 +28,3 @@ Program dostarcza możliwość rysowania wykresów tarczowych dla wskaźnika MAE
 Program ma zaimplementowany generator szumu i filtr przełączeniowy, który pozwala na
 płynną symulację detekcji.
 
-Projekt napisałem na pierwszym roku studiów w technologii Qt.

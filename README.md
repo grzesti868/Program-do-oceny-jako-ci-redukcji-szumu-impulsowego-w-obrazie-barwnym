@@ -1,6 +1,6 @@
 # Program for assessing the quality of impulse noise reduction in a color image
 
-The program allows you to load a clean, noisy and filtered image (from a file) and the designate:
+<b>The program allows you to load a clean, noisy and filtered image (from a file) and the designate:</b>
 
 - the original noise map (at the level of a clean and noisy image),
 - the estimated noise map (at the level of clear and filtered image). Program for determining such activities: PSNR, MAE and Accuracy The program provides such an opportunity to compare the exclusion map, a color map that has the results marked:

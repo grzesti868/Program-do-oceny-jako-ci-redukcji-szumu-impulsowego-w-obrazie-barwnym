@@ -1,4 +1,4 @@
-# Program-do-oceny-jako-ci-redukcji-szumu-impulsowego-w-obrazie-barwnym
+# Program do oceny jakości redukcji szumu impulsowego w obrazie barwnym
 Projekt napisałem na pierwszym roku studiów w technologii Qt.
 Program umożliwia wczytanie obrazu czystego, zaszumionego i odfiltrowanego (z pliku)
 i wyznaczyć:
@@ -14,3 +14,12 @@ detekcji, w której zaznaczone są wyniki:
 Program dostarcza możliwość rysowania wykresów tarczowych dla wskaźnika MAE.
 Program ma zaimplementowany generator szumu i filtr przełączeniowy, który pozwala na
 płynną symulację detekcji.
+##
+I wrote the project during the first year of studies in Qt technology. The program allows you to load a clean, noisy and filtered image (from a file) and the required:
+
+- the original noise map (at the level of a clean and noisy image),
+- the estimated noise map (at the level of clear and filtered image). Program for determining such activities: PSNR, MAE and Accuracy The program provides such an opportunity to compare the exclusion map, a color map that has the results marked:
+- correct positive (noise pixels correctly detected) - green color
+- black (black) color (original panels detected) - black color
+- false false (original red pixels for noise) - false
+- false false white (undetected noise criteria) - The program provided the ability to derive target chart data for the MAE. The program implements a noise generator and a switching filter that allows for a smooth simulation of the implementation.
